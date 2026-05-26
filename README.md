@@ -13,9 +13,13 @@ npx skills@latest add lovelyuk/lovelyskills
 특정 스킬을 바로 설치하려면:
 
 ```bash
-# Claude Code 전역 설치 예시
+# Claude Code 전역 설치
 npx skills@latest add lovelyuk/lovelyskills --skill lovelythink --agent claude-code --global --yes
 npx skills@latest add lovelyuk/lovelyskills --skill grill-me --agent claude-code --global --yes
+
+# Codex 전역 설치
+npx skills@latest add lovelyuk/lovelyskills --skill lovelythink --agent codex --global --yes
+npx skills@latest add lovelyuk/lovelyskills --skill grill-me --agent codex --global --yes
 ```
 
 ## Skills
