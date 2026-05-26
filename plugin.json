@@ -1,12 +1,17 @@
 {
-  "name": "lovelythink-skills",
-  "version": "1.0.0",
-  "description": "모호한 요청을 요구사항 문서로 정리하는 AI 에이전트 스킬 모음",
+  "name": "lovelyskills",
+  "version": "2.0.0",
+  "description": "AI 에이전트 워크플로우용 재사용 가능한 스킬 모음",
   "skills": [
     {
       "name": "lovelythink",
-      "path": "../lovelythink/SKILL.md",
+      "path": "skills/lovelythink/SKILL.md",
       "description": "소크라테스식 인터뷰로 모호한 요청을 실행 가능한 요구사항 문서로 정리한다"
+    },
+    {
+      "name": "grill-me",
+      "path": "skills/grill-me/SKILL.md",
+      "description": "플랜이나 설계를 끊임없는 질문으로 검증해 공유된 이해에 도달한다"
     }
   ]
 }
