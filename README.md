@@ -20,6 +20,10 @@ npx skills@latest add lovelyuk/lovelyskills --skill grill-me --agent claude-code
 # Codex 전역 설치
 npx skills@latest add lovelyuk/lovelyskills --skill lovelythink --agent codex --global --yes
 npx skills@latest add lovelyuk/lovelyskills --skill grill-me --agent codex --global --yes
+
+# Gemini CLI 전역 설치
+npx skills@latest add lovelyuk/lovelyskills --skill lovelythink --agent gemini-cli --global --yes
+npx skills@latest add lovelyuk/lovelyskills --skill grill-me --agent gemini-cli --global --yes
 ```
 
 ## Skills
